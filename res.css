@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-image: url(./home.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(154, 93, 93);
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 20px;
+    border-radius: 8px;
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#content {
+    padding-bottom: 60px;
+}
+
+#about p {
+    line-height: 1.5;
+}
+
+#contact {
+    line-height: 1.8;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-content {
+    flex: 1;
+    margin: 10px;
+}
+
+.menu-image {
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.menu-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-heading {
+    margin-bottom: 20px;
+}
+
+.chef-heading {
+    text-align: center;
+}
+
+.chef-image {
+    height: 215px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.about-chef {
+    margin-bottom: 50px;
+}
+
+.about-chef-card {
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    gap: 20px;
+}
+
+.about-chef-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chef-card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
